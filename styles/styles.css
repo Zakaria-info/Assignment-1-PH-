@@ -31,8 +31,7 @@
 }
 .navbar {
   background-color: #ffffff;
-  /* border: 1px solid blue; */
-  max-width: 1500px;
+  max-width: 100%;
   height: 92px;
   display: flex;
   justify-content: space-evenly;
@@ -198,7 +197,7 @@
 }
 
 .card-item p {
-  color: #666;
+  color: #616060;
   font-size: 0.95rem;
   line-height: 1.5;
 }
@@ -356,7 +355,6 @@
 .social-icons img {
   width: 24px;
   height: 24px;
-  
 }
 
 .footer-divider {
@@ -369,7 +367,7 @@
 
 .footer-bottom {
   text-align: center;
-  color: #FAFAFA;
+  color: #fafafa;
   margin-bottom: 40px;
   font-weight: 400px;
   font-size: 16px;
