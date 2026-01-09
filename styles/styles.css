@@ -14,8 +14,8 @@
 }
 .btn {
   background-color: #1faa59;
-  width: 165px;
-  height: 44px;
+  width: 194px;
+  height: 52px;
   border: none;
   border-radius: 5px;
   color: white;
@@ -24,6 +24,11 @@
   cursor: pointer;
   transition: 0.3s;
   gap: 10px;
+  align-items: center;
+  
+}
+.btn:hover{
+   background-color: #318451;
 }
 .navbar {
   background-color: #ffffff;
@@ -268,4 +273,63 @@
 .content-text li img {
   width: 20px; 
   height: 20px;
+}
+
+
+
+#challenge-content {
+  background-color: #f9f7f2; 
+  margin: 50px auto;         
+  padding: 80px 40px;        
+  max-width: 1100px;         
+  border-radius: 20px;       
+  text-align: center;        
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  gap: 30px;                
+}
+
+
+.content-text-clng h3 {
+  color: #001f3f;           
+  font-size: 2.5rem;     
+  margin-bottom: 15px;
+}
+
+
+.content-text-clng p {
+  color: #667085;          
+  font-size: 1.1rem;
+  max-width: 600px;       
+  margin: 0 auto;
+}
+
+
+.clng-btn {
+  color: white;
+  border: none;
+  margin-top: 24px;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 8px;        
+  cursor: pointer;
+  display: flex;           
+  align-items: center;
+  gap: 10px;                 
+  transition: background 0.3s ease; 
+}
+
+.clng-btn .btn:hover {
+  background-color: #3a955d;
+}
+
+.clng-btn .btn img {
+  width: 20px;              
+}
+
+#challenge-content h5 {
+  color: #98a2b3;            
+  font-weight: 400;
+  font-size: 16px;
 }
